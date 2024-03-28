@@ -1,0 +1,18 @@
+
+#addr-container, #addr-container a {
+    text-align: center;
+    margin-top: 6pt;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+#addr-container a {
+    display: inline;
+}
+
+.addr {
+    word-break: break-all;
+    padding: 4pt;
+}

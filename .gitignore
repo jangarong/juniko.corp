@@ -1,0 +1,6 @@
+volumes/*/**
+images/**
+.env
+.DS_Store
+images.tar
+volumes.tar

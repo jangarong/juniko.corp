@@ -1,0 +1,27 @@
+#companies {
+    display: flex;
+    justify-content: center;
+    padding: 10pt;
+}
+
+#companies a {
+    text-decoration: none;
+ }
+
+.company {
+    height: 50pt;
+    margin: 6pt 12pt;
+}
+
+@media screen and (max-width: 680px) {
+    #companies {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .company {
+        height: 40pt;
+        margin: 12pt 8pt;
+    }
+}

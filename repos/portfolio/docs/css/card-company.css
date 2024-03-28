@@ -1,0 +1,29 @@
+#companies {
+    display: flex;
+    justify-content: center;
+    padding: 10pt 10pt;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#companies a {
+    text-decoration: none;
+ }
+
+.company {
+    width: 120pt;
+    margin: 8pt 8pt;
+}
+
+@media screen and (max-width: 680px) {
+    #companies {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .company {
+        width: 180pt;
+        margin: 12pt 8pt;
+    }
+}

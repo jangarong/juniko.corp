@@ -1,0 +1,109 @@
+#body {
+    padding: 24pt;
+    /* background-color: #121212; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* https://www.magicpattern.design/tools/css-backgrounds */
+    background-color: #121212;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #121212 9px ), repeating-linear-gradient( #26262655, #262626 );
+
+}
+
+#body-art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 32pt;
+    text-align: center;
+}
+
+#body-art img {
+    height: 260pt;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5pt;
+}
+
+.project {
+    display: flex;
+    padding: 5pt;
+    align-items: left;
+    flex-direction: row;
+}
+
+.project img {
+    height: 100pt;
+    margin: 10pt;
+}
+
+.project b, p, a {
+    font-size: 14pt;
+    color: white;
+}
+
+.project-text {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 18pt;
+    margin: 10pt;
+}
+
+.body-img-text {
+    margin-top: 16pt;
+}
+
+#body.webgame {
+    padding: 0;
+    margin: 0;
+}
+
+.project-listing {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+    #body-art img {
+        height: 200pt;
+        max-width: 280pt;
+    }
+    #body-art {
+        padding: 48pt 18pt;
+    }
+    .project {
+        display: flex;
+        padding: 5pt;
+        align-items: center;
+        flex-direction: column;
+    }
+    .project-listing {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .project b, p, a {
+        text-align: center;
+    }
+    #body {
+        padding: 18pt 6pt;
+    }
+
+    #body.webgame {
+        padding: 0;
+        margin: 0;
+    }
+}

@@ -1,0 +1,4 @@
+name: juniko
+domain: https://${HOSTNAME}/
+user_agent:
+  max_dl_filesize: 25.0E+6

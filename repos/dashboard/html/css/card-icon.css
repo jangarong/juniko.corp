@@ -1,0 +1,144 @@
+/* todo: Clean up CSS, it's written very poorly! */
+.icon-container a {
+    margin: 2pt 4pt;
+}
+
+.icon-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+#resume-icon {
+    height: 38pt;
+}
+
+#github-icon {
+    height: 30pt;
+    padding: 4pt;
+}
+
+#linkedin-icon {
+    height: 28pt;
+    padding: 5pt;
+}
+
+#next-icon {
+    height: 28pt;
+}
+
+.icon, .rect-icon {
+    padding: 10pt;
+}
+
+.icon {
+    height: 50pt;
+    width: 50pt;
+}
+
+.sq-icon {
+    height: 50pt;
+    width: 50pt;
+}
+
+.tall-icon {
+    height: 60pt;
+    width: 50pt;
+    padding-top: 10pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+
+.rect-icon {
+    height: 50pt;
+    width: 75pt;
+}
+
+/* for group */
+.icons a {
+    margin: 4pt 4pt;
+    text-decoration: none;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-footer {
+    margin-top: 10px;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon-footer-long {
+    margin-top: 10px;
+    font-size: 10pt;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.host {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 10pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#card-body-contents textarea {
+    width: 110pt;
+    height: 12pt;
+    resize: none;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6pt;
+    opacity: 0.8;
+}
+
+
+
+@media screen and (max-width: 680px) {
+    #resume-icon {
+        height: 38pt;
+    }
+    
+    #github-icon {
+        height: 30pt;
+        padding: 4pt;
+    }
+    
+    #linkedin-icon {
+        height: 28pt;
+        padding: 5pt;
+    }
+    #next-icon {
+        height: 16pt;
+    }
+
+    .icons {
+        align-items: center;
+        justify-content: center;
+    }
+    .icon {
+        height: 50pt;
+        width: 50pt;
+    }
+    .rect-icon {
+        width: 75pt;
+        height: 50pt;
+    }
+}

@@ -1,0 +1,100 @@
+.spaced-title {
+    font-weight: 700;
+    font-size: 20pt;
+    line-height: 24pt;
+    letter-spacing: 3pt;
+    text-align: center;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+#footer {
+    padding: 18pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#footer p {
+    font-size: 12pt;
+    margin-top: 3pt;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom-border,
+.top-border {
+    border-width: 1pt;
+    border-color: #7D7D7D;
+}
+
+.top-border {
+    border-style: solid none none none;
+}
+
+.bottom-border {
+    border-style: none none solid none;
+}
+
+#header {
+    padding: 24pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#name {
+    font-weight: 700;
+    font-size: 18pt;
+    text-align: left;
+    line-height: 26pt;
+}
+
+#title {
+    font-weight: 400;
+    font-size: 16pt;
+    text-align: left;
+    line-height: 24pt;
+}
+
+
+
+@media screen and (max-width: 680px) {
+    #name {
+        font-size: 16pt;
+        line-height: 18pt;
+    }
+    #title {
+        font-size: 12pt;
+        line-height: 18pt;
+    }
+    #title, #name {
+        text-align: left;
+        margin: 3pt 0;
+    }
+    #header {
+        flex-direction: row;
+        padding: 12pt;
+    }
+    #title-container {
+        align-items: flex-start;
+        margin: 10pt;
+    }
+    #footer {
+        padding: 18pt;
+    }
+    .spaced-title {
+        font-size: 16pt;
+        margin-top: 10pt;
+        margin-bottom: 10pt;
+    }
+}
+
+

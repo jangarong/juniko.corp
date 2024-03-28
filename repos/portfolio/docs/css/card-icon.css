@@ -1,0 +1,46 @@
+#icon-container a {
+    margin: 2pt 4pt;
+}
+
+#icon-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+#resume-icon {
+    height: 38pt;
+}
+
+#github-icon {
+    height: 30pt;
+    padding: 4pt;
+}
+
+#linkedin-icon {
+    height: 28pt;
+    padding: 5pt;
+}
+
+#next-icon {
+    height: 28pt;
+}
+
+
+@media screen and (max-width: 680px) {
+    #resume-icon {
+        height: 38pt;
+    }
+    
+    #github-icon {
+        height: 30pt;
+        padding: 4pt;
+    }
+    
+    #linkedin-icon {
+        height: 28pt;
+        padding: 5pt;
+    }
+    #next-icon {
+        height: 16pt;
+    }
+}
